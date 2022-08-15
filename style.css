@@ -1,0 +1,145 @@
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.navbar{
+
+  background-color: #050d1e;
+}
+.navbar-brand{
+  margin-left: 100px;
+
+
+}
+.nav-link{
+  color: white;
+  font-size: 1.0625em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: ShopifySans, Helvetica, Arial, sans-serif;
+}
+.nav-link:hover{
+  color: white;
+}
+.btn-top{
+  background-color: #5c6ac4;
+  color: white;
+}
+.btn-top:hover{
+  background-color:#050d1e ;
+  border: 2px solid #5c6ac4;
+}
+.jumbotron1{
+  background-image: url('images/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.heading{
+  font-size: 4.0625em;
+  font-family:ShopifySans, Helvetica, Arial, sans-serif ;
+  letter-spacing: -0.025em;
+  font-weight: 800;
+  padding-top:120px ;
+}
+.sech1{
+  font-size: 2.125em;
+  font-weight: 700;
+  font-family:ShopifySans, Helvetica, Arial, sans-serif  ;
+}
+.sectp{
+  font-size: 1.25em;
+  font-weight: 400;
+  color: #637381;
+  padding-left: 100PX;
+  padding-right: 100PX;
+  text-align: justify;
+}
+.heading{
+  font-size: 2.215em;
+
+}
+.span1{
+  color: #5c6ac4;
+  display: block;
+}
+.para1{
+  color: white;
+  font-weight: 400;
+  font-size: 1.125em;
+  padding-top: 35px;
+}
+.ankor{
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+.card1{
+  border: none;
+}
+.cardpara1{
+  color:#637381 ;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  display: inline-block;
+}
+body {
+  background:black url(http://fc01.deviantart.net/fs71/f/2012/160/b/9/stars_by_paulinemoss-d52un4e.jpg);
+  animation: stars 205s linear alternate;
+}
+
+#box {
+  background:url(https://i.imgur.com/bYSnuNE.jpg?1);
+  background-size:cover;
+  border:2px solid #000;
+  border-radius:50%;
+  width:200px;
+  height:200px;
+  animation: movimiento 5s linear 0s infinite;
+  box-shadow:0 0 25px RGBA(255,255,255, 0.10),
+             -8px -8px 15px #000 inset,
+             2px 2px 25px #000 inset,
+             -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+             25px 25px 45px RGBA(0,0,0, 0.45) inset;
+  margin:6em auto;
+  transform:rotateX(6deg) rotateY(6deg) rotateZ(6deg);
+}
+
+@keyframes movimiento {
+  0% { background-position:0 0 }
+  100% { background-position:355px 0 }
+}
+
+@keyframes stars {
+  0% { background-position:0 0 }
+  100% { background-position:0 100% }
+}
+.bottom-card{
+  border: none;
+  box-shadow: 0 5px 20px 0 rgba(69, 79, 89, 0.2);
+  border-radius: 5px;
+}
+.ankor1{
+  color: #5c6ac4;
+  font-size: 18px;
+  font-weight: 700;
+}
+.bottom-card:hover{
+  box-shadow: 10px 5px 20px 0 rgba(69, 79, 89, 0.2);
+}
+.footer-nav-link
+{
+    display: block;
+    font-size: 0.875em;
+    padding: 0.375em 0;
+    color: #919eab
+}
